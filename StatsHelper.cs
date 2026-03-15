@@ -13,6 +13,17 @@ public class StatsHelper
         return values.Sum() / values.Length;
     }
 
+    public static double CalculateMax(int[] values)
+    {
+        Console.WriteLine("Obliczanie maksimum...");
+        if (values.Length == 0)
+        {
+            Console.WriteLine("Błąd: Nie można obliczyć maksimum dla pustej tablicy.");
+            return 0;
+        }
+        return values.Max();
+    }
+
     
     
 }
