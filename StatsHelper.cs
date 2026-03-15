@@ -26,10 +26,14 @@ public class StatsHelper
 
     public static double CalculateMin(int[] values)
     {
+        Console.WriteLine("Obliczanie minumum..");
+        if (values.Length == 0)
+        {
+            Console.WriteLine("Błąd: Nie można obliczyć minimum dla pustej tablicy.");
+            return 0;
+        }
         return values.Min();
     }
-    
-    
 
     
     
