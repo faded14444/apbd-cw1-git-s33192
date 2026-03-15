@@ -7,7 +7,7 @@ namespace ApbdCw1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Witaj w kalkulatorze statystyk!");
+            Console.WriteLine("Witaj w branchu konfliktowym!");
             Console.WriteLine("Wprowadź ciąg liczb oddzielonych spacją:");
             
             string? input = Console.ReadLine();
